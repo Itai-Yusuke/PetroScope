@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetroScope Data Definition</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 32px;
+        font-family: "Aptos", "Yu Gothic UI", sans-serif;
+        background: #f7f0e7;
+        color: #1f2933;
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
+        border: 1px solid rgba(31, 41, 51, 0.12);
+        border-radius: 24px;
+        background: rgba(255, 250, 242, 0.92);
+      }
+      h1, h2 { font-family: "Rockwell", "Yu Mincho", serif; }
+      code { background: #fff; padding: 2px 6px; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>データ定義</h1>
+      <p>PetroScope は <code>public/data</code> 配下の整形済み JSON を読むだけの静的アプリです。</p>
+      <h2>円サイズ</h2>
+      <p><code>oil-consumption-YYYY.json</code> の <code>metricName = oil_consumption</code> を使用し、面積比例の円で描画します。</p>
+      <h2>調達構成</h2>
+      <p><code>oil-origin-mix-YYYY.json</code> の <code>domesticSharePct</code> と <code>importPartners</code> を合計 100% として表示します。</p>
+      <h2>データ品質</h2>
+      <p><code>complete</code> / <code>partial</code> / <code>missing</code> の 3 段階で品質を管理します。</p>
+      <h2>国コード</h2>
+      <p>すべて ISO 3166-1 alpha-3 を主キーに採用しています。</p>
+      <h2>境界ポリシー</h2>
+      <p>Natural Earth 由来の境界をそのまま使用します。アプリ独自の政治判定は行いません。</p>
+    </main>
+  </body>
+</html>

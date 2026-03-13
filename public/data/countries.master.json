@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "countries": [
+    { "iso3": "JPN", "nameJa": "日本", "nameEn": "Japan", "geometryId": "JPN", "centroid": { "lon": 138.0, "lat": 37.0 }, "displayPoint": { "lon": 138.0, "lat": 37.0 }, "region": "Asia", "subregion": "Eastern Asia" },
+    { "iso3": "USA", "nameJa": "アメリカ合衆国", "nameEn": "United States", "geometryId": "USA", "centroid": { "lon": -99.0, "lat": 39.5 }, "displayPoint": { "lon": -99.0, "lat": 39.5 }, "region": "Americas", "subregion": "Northern America" },
+    { "iso3": "CHN", "nameJa": "中国", "nameEn": "China", "geometryId": "CHN", "centroid": { "lon": 103.8, "lat": 35.8 }, "displayPoint": { "lon": 103.8, "lat": 35.8 }, "region": "Asia", "subregion": "Eastern Asia" },
+    { "iso3": "IND", "nameJa": "インド", "nameEn": "India", "geometryId": "IND", "centroid": { "lon": 78.8, "lat": 22.9 }, "displayPoint": { "lon": 78.8, "lat": 22.9 }, "region": "Asia", "subregion": "Southern Asia" },
+    { "iso3": "DEU", "nameJa": "ドイツ", "nameEn": "Germany", "geometryId": "DEU", "centroid": { "lon": 10.4, "lat": 51.0 }, "displayPoint": { "lon": 10.4, "lat": 51.0 }, "region": "Europe", "subregion": "Western Europe" },
+    { "iso3": "KOR", "nameJa": "韓国", "nameEn": "South Korea", "geometryId": "KOR", "centroid": { "lon": 127.8, "lat": 36.3 }, "displayPoint": { "lon": 127.8, "lat": 36.3 }, "region": "Asia", "subregion": "Eastern Asia" },
+    { "iso3": "FRA", "nameJa": "フランス", "nameEn": "France", "geometryId": "FRA", "centroid": { "lon": 2.2, "lat": 46.2 }, "displayPoint": { "lon": 2.2, "lat": 46.2 }, "region": "Europe", "subregion": "Western Europe" },
+    { "iso3": "BRA", "nameJa": "ブラジル", "nameEn": "Brazil", "geometryId": "BRA", "centroid": { "lon": -52.9, "lat": -10.8 }, "displayPoint": { "lon": -52.9, "lat": -10.8 }, "region": "Americas", "subregion": "South America" },
+    { "iso3": "CAN", "nameJa": "カナダ", "nameEn": "Canada", "geometryId": "CAN", "centroid": { "lon": -101.5, "lat": 57.7 }, "displayPoint": { "lon": -101.5, "lat": 57.7 }, "region": "Americas", "subregion": "Northern America" },
+    { "iso3": "SAU", "nameJa": "サウジアラビア", "nameEn": "Saudi Arabia", "geometryId": "SAU", "centroid": { "lon": 45.1, "lat": 23.9 }, "displayPoint": { "lon": 45.1, "lat": 23.9 }, "region": "Asia", "subregion": "Western Asia" },
+    { "iso3": "ARE", "nameJa": "アラブ首長国連邦", "nameEn": "United Arab Emirates", "geometryId": "ARE", "centroid": { "lon": 54.3, "lat": 23.8 }, "displayPoint": { "lon": 54.3, "lat": 23.8 }, "region": "Asia", "subregion": "Western Asia" },
+    { "iso3": "NOR", "nameJa": "ノルウェー", "nameEn": "Norway", "geometryId": "NOR", "centroid": { "lon": 10.0, "lat": 64.5 }, "displayPoint": { "lon": 10.0, "lat": 64.5 }, "region": "Europe", "subregion": "Northern Europe" },
+    { "iso3": "AUS", "nameJa": "オーストラリア", "nameEn": "Australia", "geometryId": "AUS", "centroid": { "lon": 133.8, "lat": -25.3 }, "displayPoint": { "lon": 133.8, "lat": -25.3 }, "region": "Oceania", "subregion": "Australia and New Zealand" },
+    { "iso3": "MEX", "nameJa": "メキシコ", "nameEn": "Mexico", "geometryId": "MEX", "centroid": { "lon": -102.6, "lat": 23.9 }, "displayPoint": { "lon": -102.6, "lat": 23.9 }, "region": "Americas", "subregion": "Northern America" },
+    { "iso3": "IDN", "nameJa": "インドネシア", "nameEn": "Indonesia", "geometryId": "IDN", "centroid": { "lon": 118.0, "lat": -2.3 }, "displayPoint": { "lon": 118.0, "lat": -2.3 }, "region": "Asia", "subregion": "South-Eastern Asia" },
+    { "iso3": "KWT", "nameJa": "クウェート", "nameEn": "Kuwait", "geometryId": "KWT", "centroid": { "lon": 47.5, "lat": 29.3 }, "displayPoint": { "lon": 47.5, "lat": 29.3 }, "region": "Asia", "subregion": "Western Asia" },
+    { "iso3": "KAZ", "nameJa": "カザフスタン", "nameEn": "Kazakhstan", "geometryId": "KAZ", "centroid": { "lon": 67.3, "lat": 48.2 }, "displayPoint": { "lon": 67.3, "lat": 48.2 }, "region": "Asia", "subregion": "Central Asia" },
+    { "iso3": "GBR", "nameJa": "イギリス", "nameEn": "United Kingdom", "geometryId": "GBR", "centroid": { "lon": -2.5, "lat": 54.5 }, "displayPoint": { "lon": -2.5, "lat": 54.5 }, "region": "Europe", "subregion": "Northern Europe" },
+    { "iso3": "LBY", "nameJa": "リビア", "nameEn": "Libya", "geometryId": "LBY", "centroid": { "lon": 17.2, "lat": 27.1 }, "displayPoint": { "lon": 17.2, "lat": 27.1 }, "region": "Africa", "subregion": "Northern Africa" },
+    { "iso3": "IRQ", "nameJa": "イラク", "nameEn": "Iraq", "geometryId": "IRQ", "centroid": { "lon": 43.8, "lat": 33.0 }, "displayPoint": { "lon": 43.8, "lat": 33.0 }, "region": "Asia", "subregion": "Western Asia" },
+    { "iso3": "NGA", "nameJa": "ナイジェリア", "nameEn": "Nigeria", "geometryId": "NGA", "centroid": { "lon": 8.7, "lat": 9.1 }, "displayPoint": { "lon": 8.7, "lat": 9.1 }, "region": "Africa", "subregion": "Western Africa" },
+    { "iso3": "RUS", "nameJa": "ロシア", "nameEn": "Russia", "geometryId": "RUS", "centroid": { "lon": 99.0, "lat": 61.5 }, "displayPoint": { "lon": 99.0, "lat": 61.5 }, "region": "Europe", "subregion": "Eastern Europe" },
+    { "iso3": "OMN", "nameJa": "オマーン", "nameEn": "Oman", "geometryId": "OMN", "centroid": { "lon": 56.1, "lat": 20.6 }, "displayPoint": { "lon": 56.1, "lat": 20.6 }, "region": "Asia", "subregion": "Western Asia" }
+  ]
+}

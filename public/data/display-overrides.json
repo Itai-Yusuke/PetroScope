@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "countries": {
+    "JPN": { "labelOffsetPx": { "x": 10, "y": -16 } },
+    "KOR": { "labelOffsetPx": { "x": 8, "y": -8 } },
+    "GBR": { "labelOffsetPx": { "x": 10, "y": -10 } },
+    "NOR": { "labelOffsetPx": { "x": 12, "y": -8 } },
+    "ARE": { "labelOffsetPx": { "x": 10, "y": 16 } },
+    "OMN": { "labelOffsetPx": { "x": 8, "y": 18 } }
+  }
+}

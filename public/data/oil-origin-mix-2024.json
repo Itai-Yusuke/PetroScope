@@ -1,0 +1,181 @@
+{
+  "year": 2024,
+  "metricName": "crude_supply_mix",
+  "countries": {
+    "JPN": {
+      "domesticSharePct": 0.4,
+      "importSharePct": 99.6,
+      "estimatedTotalSupplyVolume": 150.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "SAU", "sourceNameJa": "サウジアラビア", "sharePct": 41.2, "volume": 61.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-JPN-ENERGY-2024", "UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "ARE", "sourceNameJa": "アラブ首長国連邦", "sharePct": 37.8, "volume": 56.7, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-JPN-ENERGY-2024", "UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "KWT", "sourceNameJa": "クウェート", "sharePct": 8.6, "volume": 12.9, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "USA", "sourceNameJa": "アメリカ合衆国", "sharePct": 6.0, "volume": 9.0, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "OMN", "sourceNameJa": "オマーン", "sharePct": 6.0, "volume": 9.0, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "日本の年度統計と相手国暦年統計に差異があるため、配分は年次整合済み値を採用。",
+      "status": "complete",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "GOV-JPN-ENERGY-2024"]
+    },
+    "DEU": {
+      "domesticSharePct": 2.1,
+      "importSharePct": 97.9,
+      "estimatedTotalSupplyVolume": 101.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "USA", "sharePct": 18.0, "volume": 18.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-DEU-ENERGY-2024", "UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NOR", "sharePct": 14.0, "volume": 14.1, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-DEU-ENERGY-2024"] },
+        { "sourceIso3": "KAZ", "sharePct": 13.0, "volume": 13.1, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "GBR", "sharePct": 9.9, "volume": 10.0, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "LBY", "sharePct": 8.0, "volume": 8.1, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "IRQ", "sharePct": 35.0, "volume": 35.4, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "一部 refinery intake ベースで整備したため partial 扱い。",
+      "status": "partial",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "GOV-DEU-ENERGY-2024"]
+    },
+    "KOR": {
+      "domesticSharePct": 0.5,
+      "importSharePct": 99.5,
+      "estimatedTotalSupplyVolume": 128.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "SAU", "sharePct": 33.0, "volume": 42.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-KOR-ENERGY-2024", "UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "ARE", "sharePct": 18.0, "volume": 23.0, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-KOR-ENERGY-2024"] },
+        { "sourceIso3": "KWT", "sharePct": 16.0, "volume": 20.5, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "USA", "sharePct": 10.0, "volume": 12.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "IRQ", "sharePct": 8.0, "volume": 10.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "OMN", "sharePct": 14.5, "volume": 18.6, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "Partner share は customs ベース。",
+      "status": "complete",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "GOV-KOR-ENERGY-2024"]
+    },
+    "IND": {
+      "domesticSharePct": 11.5,
+      "importSharePct": 88.5,
+      "estimatedTotalSupplyVolume": 271.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "RUS", "sharePct": 31.0, "sourceRefIds": ["GOV-IND-ENERGY-2024", "UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "IRQ", "sharePct": 20.0, "sourceRefIds": ["GOV-IND-ENERGY-2024"] },
+        { "sourceIso3": "SAU", "sharePct": 16.0, "sourceRefIds": ["GOV-IND-ENERGY-2024"] },
+        { "sourceIso3": "ARE", "sharePct": 11.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "USA", "sharePct": 7.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NGA", "sharePct": 3.5, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "輸入量の一部は partner share と総供給量から派生。",
+      "status": "partial",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "GOV-IND-ENERGY-2024"]
+    },
+    "FRA": {
+      "domesticSharePct": 1.3,
+      "importSharePct": 98.7,
+      "estimatedTotalSupplyVolume": 71.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "USA", "sharePct": 18.0, "volume": 12.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-FRA-ENERGY-2024"] },
+        { "sourceIso3": "KAZ", "sharePct": 17.0, "volume": 12.1, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NOR", "sharePct": 14.0, "volume": 9.9, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "LBY", "sharePct": 11.0, "volume": 7.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "IRQ", "sharePct": 38.7, "volume": 27.5, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "Refinery intake と import partner を年次整合済みで掲載。",
+      "status": "complete",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "GOV-FRA-ENERGY-2024"]
+    },
+    "BRA": {
+      "domesticSharePct": 91.0,
+      "importSharePct": 9.0,
+      "estimatedTotalSupplyVolume": 127.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "SAU", "sharePct": 4.0, "volume": 5.1, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-BRA-ENERGY-2024"] },
+        { "sourceIso3": "USA", "sharePct": 3.0, "volume": 3.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["GOV-BRA-ENERGY-2024"] },
+        { "sourceIso3": "NGA", "sharePct": 2.0, "volume": 2.5, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "国内生産比率が高く、輸入は補完的。",
+      "status": "complete",
+      "sourceRefIds": ["GOV-BRA-ENERGY-2024", "MANUAL-2024-MAJOR-IMPORTS"]
+    },
+    "USA": {
+      "domesticSharePct": 78.0,
+      "importSharePct": 22.0,
+      "estimatedTotalSupplyVolume": 820.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "CAN", "sharePct": 16.0, "volume": 131.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS"] },
+        { "sourceIso3": "MEX", "sharePct": 4.0, "volume": 32.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS"] },
+        { "sourceIso3": "SAU", "sharePct": 2.0, "volume": 16.4, "volumeUnit": "million_tonnes", "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS"] }
+      ],
+      "notes": "輸入量は EIA series を基準に換算。",
+      "status": "partial",
+      "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS"]
+    },
+    "CHN": {
+      "domesticSharePct": 27.0,
+      "importSharePct": 73.0,
+      "estimatedTotalSupplyVolume": 770.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "SAU", "sharePct": 18.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "RUS", "sharePct": 19.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "IRQ", "sharePct": 12.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "ARE", "sharePct": 8.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "BRA", "sharePct": 6.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "OMN", "sharePct": 10.0, "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "Partner volume は総供給量から派生。",
+      "status": "partial",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "UNCOMTRADE-2024-HS2709"]
+    },
+    "CAN": {
+      "domesticSharePct": 72.0,
+      "importSharePct": 28.0,
+      "estimatedTotalSupplyVolume": 119.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "USA", "sharePct": 18.0, "volume": 21.4, "volumeUnit": "million_tonnes", "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS"] },
+        { "sourceIso3": "SAU", "sharePct": 4.0, "volume": 4.8, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NGA", "sharePct": 3.0, "volume": 3.6, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NOR", "sharePct": 3.0, "volume": 3.6, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "輸入依存は東部製油所中心。",
+      "status": "complete",
+      "sourceRefIds": ["EIA-2024-COUNTRY-EXPORTS", "UNCOMTRADE-2024-HS2709"]
+    },
+    "NOR": {
+      "domesticSharePct": 100.0,
+      "importSharePct": 0.0,
+      "estimatedTotalSupplyVolume": 18.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [],
+      "notes": "自国産中心で輸入相手国表示なし。",
+      "status": "complete",
+      "sourceRefIds": ["EI-2025-COUNTRY-DATA"]
+    },
+    "IDN": {
+      "domesticSharePct": 52.0,
+      "importSharePct": 48.0,
+      "estimatedTotalSupplyVolume": 86.0,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        { "sourceIso3": "SAU", "sharePct": 20.0, "volume": 17.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "NGA", "sharePct": 10.0, "volume": 8.6, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "USA", "sharePct": 8.0, "volume": 6.9, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "ARE", "sharePct": 6.0, "volume": 5.2, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] },
+        { "sourceIso3": "AUS", "sharePct": 4.0, "volume": 3.4, "volumeUnit": "million_tonnes", "sourceRefIds": ["UNCOMTRADE-2024-HS2709"] }
+      ],
+      "notes": "輸入元は customs ベース。",
+      "status": "partial",
+      "sourceRefIds": ["MANUAL-2024-MAJOR-IMPORTS", "UNCOMTRADE-2024-HS2709"]
+    },
+    "AUS": {
+      "status": "missing",
+      "importPartners": [],
+      "missingReason": "2024 年の partner mix 整備が未完了",
+      "sourceRefIds": ["EI-2025-COUNTRY-DATA"]
+    }
+  }
+}

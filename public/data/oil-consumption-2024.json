@@ -1,0 +1,22 @@
+{
+  "year": 2024,
+  "unit": "million_tonnes_oil_equivalent",
+  "metricName": "oil_consumption",
+  "countries": {
+    "USA": { "value": 818.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "CHN": { "value": 764.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "IND": { "value": 265.7, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "JPN": { "value": 150.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "KOR": { "value": 126.8, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "BRA": { "value": 124.7, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "CAN": { "value": 118.1, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "SAU": { "value": 167.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "DEU": { "value": 101.8, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "MEX": { "value": 88.5, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "partial", "missingReason": "暦年と会計年度の差異あり" },
+    "IDN": { "value": 83.9, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "FRA": { "value": 70.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "ARE": { "value": 52.6, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
+    "AUS": { "value": 47.1, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "partial", "missingReason": "一部系列を補助統計で補完" },
+    "NOR": { "value": 18.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" }
+  }
+}
