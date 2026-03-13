@@ -1,5 +1,6 @@
 import { extent, geoNaturalEarth1, geoPath, scaleSqrt } from 'd3';
 import type { GeoProjection } from 'd3';
+import { formatUnitLabel } from '../lib/format';
 import type { OilConsumptionDataset, OilOriginMixDataset } from '../lib/schemas';
 import { buildCurvePath } from '../lib/geo';
 import type { CountryCatalogEntry, CountryFeature, ToggleState, TooltipState } from '../types';
@@ -67,7 +68,7 @@ export function WorldMap({
   const [minArrowVolume = 0, maxArrowVolume = 1] = extent(allArrowVolumes);
   const arrowScale = scaleSqrt<number, number>()
     .domain([Math.max(0, minArrowVolume), Math.max(maxArrowVolume, minArrowVolume + 1)])
-    .range([1.2, 7]);
+    .range([3.5, 18]);
 
   const pointByIso3 = Object.fromEntries(
     Object.values(catalog)
@@ -146,13 +147,13 @@ export function WorldMap({
             <marker
               key={iso3}
               id={`arrow-${iso3}`}
-              markerWidth="9"
-              markerHeight="9"
+              markerWidth="14"
+              markerHeight="14"
               orient="auto-start-reverse"
-              refX="7"
-              refY="3.5"
+              refX="10"
+              refY="5"
             >
-              <path d="M0,0 L7,3.5 L0,7 Z" fill={selectionColors[iso3]} />
+              <path d="M0,0 L10,5 L0,10 Z" fill={selectionColors[iso3]} />
             </marker>
           ))}
         </defs>
@@ -221,7 +222,7 @@ export function WorldMap({
                     y: event.clientY + 16,
                     title: `${country?.nameJa ?? circle.iso3} の年間 oil consumption`,
                     subtitle: `${country?.nameEn ?? circle.iso3} · ${circle.iso3}`,
-                    lines: [`${formatCompact(circle.value)} ${consumption.unit}`],
+                    lines: [`${formatCompact(circle.value)} ${formatUnitLabel(consumption.unit)}`],
                   });
                 }}
                 onMouseLeave={() => setTooltip(null)}
@@ -245,14 +246,15 @@ export function WorldMap({
                   title: arrow.label,
                   lines: [
                     arrow.volume
-                      ? `輸入量: ${formatCompact(arrow.volume)} ${arrow.volumeUnit ?? ''}`.trim()
+                      ? `輸入量: ${formatCompact(arrow.volume)} ${formatUnitLabel(arrow.volumeUnit)}`.trim()
                       : '輸入量: share から派生',
                   ],
                 });
               }}
               onMouseLeave={() => setTooltip(null)}
               stroke={arrow.color}
-              strokeOpacity="0.42"
+              strokeLinecap="round"
+              strokeOpacity="0.72"
               strokeWidth={arrow.width}
             />
           ))}

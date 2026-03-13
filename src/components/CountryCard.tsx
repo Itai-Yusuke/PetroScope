@@ -1,6 +1,7 @@
 import { arc, pie } from 'd3';
 import type { PieArcDatum } from 'd3';
 import { useState } from 'react';
+import { formatUnitLabel } from '../lib/format';
 import type { DataStatus, OilConsumptionDataset, OilOriginMixDataset, SourcesCatalog } from '../lib/schemas';
 import type { CountryCatalogEntry } from '../types';
 
@@ -71,7 +72,10 @@ export function CountryCard({
       </header>
 
       <div className="metric-grid">
-        <Metric label="年間消費量" value={consumption?.value ? `${formatValue(consumption.value)} ${consumptionUnit}` : 'N/A'} />
+        <Metric
+          label="年間消費量"
+          value={consumption?.value ? `${formatValue(consumption.value)} ${formatUnitLabel(consumptionUnit)}` : 'N/A'}
+        />
         <Metric label="国内由来比率" value={mix?.domesticSharePct != null ? `${mix.domesticSharePct.toFixed(1)}%` : 'N/A'} />
         <Metric label="輸入依存比率" value={mix?.importSharePct != null ? `${mix.importSharePct.toFixed(1)}%` : 'N/A'} />
         <Metric label="輸入元国数" value={String(partners.length)} />
@@ -134,7 +138,11 @@ export function CountryCard({
                   <tr key={`${country.iso3}-${partner.sourceIso3}`}>
                     <td>{partner.sourceNameJa}</td>
                     <td>{partner.sharePct.toFixed(1)}%</td>
-                    <td>{partner.volume != null ? `${formatValue(partner.volume)} ${partner.volumeUnit ?? ''}`.trim() : 'N/A'}</td>
+                    <td>
+                      {partner.volume != null
+                        ? `${formatValue(partner.volume)} ${formatUnitLabel(partner.volumeUnit)}`.trim()
+                        : 'N/A'}
+                    </td>
                     <td>
                       <SourceList sourceIds={partner.sourceRefIds} sourceMap={sourceMap} />
                     </td>
