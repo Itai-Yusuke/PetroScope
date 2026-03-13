@@ -27,7 +27,6 @@ type ArrowDatum = {
   sourcePoint: [number, number];
   targetPoint: [number, number];
   width: number;
-  headScale: number;
   color: string;
   label: string;
   volume?: number;
@@ -68,9 +67,6 @@ export function WorldMap({
   });
   const [minArrowVolume = 0, maxArrowVolume = 1] = extent(allArrowVolumes);
   const arrowScale = scaleSqrt<number, number>()
-    .domain([Math.max(0, minArrowVolume), Math.max(maxArrowVolume, minArrowVolume + 1)])
-    .range([3.5, 18]);
-  const legacyHeadScale = scaleSqrt<number, number>()
     .domain([Math.max(0, minArrowVolume), Math.max(maxArrowVolume, minArrowVolume + 1)])
     .range([1.2, 7]);
 
@@ -126,7 +122,6 @@ export function WorldMap({
             sourcePoint: source,
             targetPoint: target,
             width: arrowScale(volume ?? partner.sharePct),
-            headScale: legacyHeadScale(volume ?? partner.sharePct),
             color: selectionColors[targetIso3],
             label: `${partner.sourceNameJa ?? catalog[partner.sourceIso3]?.nameJa ?? partner.sourceIso3} → ${
               catalog[targetIso3]?.nameJa ?? targetIso3
@@ -148,19 +143,17 @@ export function WorldMap({
             <stop offset="0%" stopColor="#dbeafe" />
             <stop offset="100%" stopColor="#c7e7f6" />
           </linearGradient>
-          {arrows.map((arrow) => (
+          {selectedIso3s.map((iso3) => (
             <marker
-              key={arrow.key}
-              id={`arrow-${arrow.key}`}
-              markerUnits="userSpaceOnUse"
-              markerWidth={arrow.headScale * 7}
-              markerHeight={arrow.headScale * 7}
+              key={iso3}
+              id={`arrow-${iso3}`}
+              markerWidth="9"
+              markerHeight="9"
               orient="auto-start-reverse"
               refX="7"
               refY="3.5"
-              viewBox="0 0 7 7"
             >
-              <path d="M0,0 L7,3.5 L0,7 Z" fill={arrow.color} />
+              <path d="M0,0 L7,3.5 L0,7 Z" fill={selectionColors[iso3]} />
             </marker>
           ))}
         </defs>
@@ -245,7 +238,7 @@ export function WorldMap({
               key={arrow.key}
               d={buildCurvePath(arrow.sourcePoint, arrow.targetPoint)}
               fill="none"
-              markerEnd={`url(#arrow-${arrow.key})`}
+              markerEnd={`url(#arrow-${arrow.targetIso3})`}
               onMouseEnter={(event) => {
                 setTooltip({
                   x: event.clientX + 16,
@@ -260,8 +253,7 @@ export function WorldMap({
               }}
               onMouseLeave={() => setTooltip(null)}
               stroke={arrow.color}
-              strokeLinecap="round"
-              strokeOpacity="0.72"
+              strokeOpacity="0.42"
               strokeWidth={arrow.width}
             />
           ))}
