@@ -147,11 +147,12 @@ export function WorldMap({
             <marker
               key={iso3}
               id={`arrow-${iso3}`}
-              markerWidth="9"
-              markerHeight="9"
+              markerWidth="3.6"
+              markerHeight="3.6"
               orient="auto-start-reverse"
               refX="7"
               refY="3.5"
+              viewBox="0 0 7 7"
             >
               <path d="M0,0 L7,3.5 L0,7 Z" fill={selectionColors[iso3]} />
             </marker>
