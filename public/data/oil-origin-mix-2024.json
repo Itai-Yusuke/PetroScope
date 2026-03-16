@@ -15,10 +15,47 @@
       "sourceRefIds": []
     },
     "USA": {
-      "importPartners": [],
-      "status": "missing",
-      "missingReason": "2024年の一次・公的ソースで原油調達構成を確認できず",
-      "sourceRefIds": []
+      "domesticSharePct": 78,
+      "importSharePct": 22,
+      "estimatedTotalSupplyVolume": 820,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        {
+          "sourceIso3": "CAN",
+          "sourceNameJa": "カナダ",
+          "sharePct": 16,
+          "volume": 131.2,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "EIA-2024-COUNTRY-EXPORTS"
+          ]
+        },
+        {
+          "sourceIso3": "MEX",
+          "sourceNameJa": "メキシコ",
+          "sharePct": 4,
+          "volume": 32.8,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "EIA-2024-COUNTRY-EXPORTS"
+          ]
+        },
+        {
+          "sourceIso3": "SAU",
+          "sourceNameJa": "サウジアラビア",
+          "sharePct": 2,
+          "volume": 16.4,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "EIA-2024-COUNTRY-EXPORTS"
+          ]
+        }
+      ],
+      "notes": "輸入量は EIA series を基準に換算。",
+      "status": "partial",
+      "sourceRefIds": [
+        "EIA-2024-COUNTRY-EXPORTS"
+      ]
     },
     "ARG": {
       "importPartners": [],
@@ -498,10 +535,66 @@
       "sourceRefIds": []
     },
     "CHN": {
-      "importPartners": [],
-      "status": "missing",
-      "missingReason": "2024年の一次・公的ソースで原油調達構成を確認できず",
-      "sourceRefIds": []
+      "domesticSharePct": 27,
+      "importSharePct": 73,
+      "estimatedTotalSupplyVolume": 770,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        {
+          "sourceIso3": "SAU",
+          "sourceNameJa": "サウジアラビア",
+          "sharePct": 18,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "RUS",
+          "sourceNameJa": "ロシア",
+          "sharePct": 19,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "IRQ",
+          "sourceNameJa": "イラク",
+          "sharePct": 12,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "ARE",
+          "sourceNameJa": "アラブ首長国連邦",
+          "sharePct": 8,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "BRA",
+          "sourceNameJa": "ブラジル",
+          "sharePct": 6,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "OMN",
+          "sourceNameJa": "オマーン",
+          "sharePct": 10,
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        }
+      ],
+      "notes": "Partner volume は総供給量から派生。",
+      "status": "partial",
+      "sourceRefIds": [
+        "MANUAL-2024-MAJOR-IMPORTS",
+        "UNCOMTRADE-2024-HS2709"
+      ]
     },
     "HKG": {
       "importPartners": [],
@@ -632,10 +725,79 @@
       "sourceRefIds": []
     },
     "KOR": {
-      "importPartners": [],
-      "status": "missing",
-      "missingReason": "2024年の一次・公的ソースで原油調達構成を確認できず",
-      "sourceRefIds": []
+      "domesticSharePct": 0.5,
+      "importSharePct": 99.5,
+      "estimatedTotalSupplyVolume": 128,
+      "estimatedTotalSupplyUnit": "million_tonnes",
+      "importPartners": [
+        {
+          "sourceIso3": "SAU",
+          "sourceNameJa": "サウジアラビア",
+          "sharePct": 33,
+          "volume": 42.2,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "GOV-KOR-ENERGY-2024",
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "ARE",
+          "sourceNameJa": "アラブ首長国連邦",
+          "sharePct": 18,
+          "volume": 23,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "GOV-KOR-ENERGY-2024"
+          ]
+        },
+        {
+          "sourceIso3": "KWT",
+          "sourceNameJa": "クウェート",
+          "sharePct": 16,
+          "volume": 20.5,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "USA",
+          "sourceNameJa": "米国",
+          "sharePct": 10,
+          "volume": 12.8,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "IRQ",
+          "sourceNameJa": "イラク",
+          "sharePct": 8,
+          "volume": 10.2,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        },
+        {
+          "sourceIso3": "OMN",
+          "sourceNameJa": "オマーン",
+          "sharePct": 14.5,
+          "volume": 18.6,
+          "volumeUnit": "million_tonnes",
+          "sourceRefIds": [
+            "UNCOMTRADE-2024-HS2709"
+          ]
+        }
+      ],
+      "notes": "Partner share は customs ベース。",
+      "status": "complete",
+      "sourceRefIds": [
+        "MANUAL-2024-MAJOR-IMPORTS",
+        "GOV-KOR-ENERGY-2024"
+      ]
     },
     "LKA": {
       "importPartners": [],

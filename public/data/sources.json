@@ -63,6 +63,38 @@
       "year": 2024,
       "type": "industry statistical report",
       "url": "https://ag-energiebilanzen.de/wp-content/uploads/AGEB_Jahresbericht2024_20250616_dt.pdf"
+    },
+    {
+      "id": "UNCOMTRADE-2024-HS2709",
+      "title": "UN Comtrade annual imports of crude petroleum by partner country",
+      "publisher": "UNSD",
+      "year": 2024,
+      "type": "api",
+      "url": "https://comtradeplus.un.org/"
+    },
+    {
+      "id": "MANUAL-2024-MAJOR-IMPORTS",
+      "title": "Curated partner-country crude sourcing table",
+      "publisher": "Project manual compilation",
+      "year": 2024,
+      "type": "csv",
+      "url": "https://github.com/example/petroscope-data"
+    },
+    {
+      "id": "GOV-KOR-ENERGY-2024",
+      "title": "Korean energy balance and crude imports",
+      "publisher": "MOTIE Korea",
+      "year": 2024,
+      "type": "pdf",
+      "url": "https://www.motie.go.kr/"
+    },
+    {
+      "id": "EIA-2024-COUNTRY-EXPORTS",
+      "title": "Country export and import flow summary",
+      "publisher": "U.S. Energy Information Administration",
+      "year": 2024,
+      "type": "api",
+      "url": "https://www.eia.gov/"
     }
   ]
 }
