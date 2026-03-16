@@ -185,10 +185,10 @@ export function WorldMap({
                     x: event.clientX + 16,
                     y: event.clientY + 16,
                     title: country?.nameJa ?? iso3,
-                    subtitle: `${country?.nameEn ?? iso3} · ${iso3}`,
+                    subtitle: `${country?.nameEn ?? iso3} / ${iso3}`,
                     lines: [
-                      `消費量データ: ${consumptionEntry?.status ?? 'missing'}`,
-                      `調達構成データ: ${mixEntry?.status ?? 'missing'}`,
+                      `消費量データ: ${formatStatusLabel(consumptionEntry?.status)}`,
+                      `調達構成データ: ${formatStatusLabel(mixEntry?.status)}`,
                     ],
                   });
                 }}
@@ -220,8 +220,8 @@ export function WorldMap({
                   setTooltip({
                     x: event.clientX + 16,
                     y: event.clientY + 16,
-                    title: `${country?.nameJa ?? circle.iso3} の年間 oil consumption`,
-                    subtitle: `${country?.nameEn ?? circle.iso3} · ${circle.iso3}`,
+                    title: `${country?.nameJa ?? circle.iso3} の年間石油消費量`,
+                    subtitle: `${country?.nameEn ?? circle.iso3} / ${circle.iso3}`,
                     lines: [`${formatCompact(circle.value)} ${formatUnitLabel(consumption.unit)}`],
                   });
                 }}
@@ -247,7 +247,7 @@ export function WorldMap({
                   lines: [
                     arrow.volume
                       ? `輸入量: ${formatCompact(arrow.volume)} ${formatUnitLabel(arrow.volumeUnit)}`.trim()
-                      : '輸入量: share から派生',
+                      : '輸入量: 構成比から算出',
                   ],
                 });
               }}
@@ -301,4 +301,16 @@ function formatCompact(value: number) {
   return new Intl.NumberFormat('ja-JP', {
     maximumFractionDigits: 1,
   }).format(value);
+}
+
+function formatStatusLabel(status?: string) {
+  switch (status) {
+    case 'complete':
+      return '整備済み';
+    case 'partial':
+      return '一部欠損';
+    case 'missing':
+    default:
+      return '未整備';
+  }
 }
