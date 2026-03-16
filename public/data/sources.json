@@ -1,84 +1,68 @@
 {
   "sources": [
     {
-      "id": "EI-2025-COUNTRY-DATA",
-      "title": "Statistical Review of World Energy Data",
+      "id": "EI-2025-SRWE-OIL-CONS",
+      "title": "Statistical Review of World Energy 2025",
       "publisher": "Energy Institute",
       "year": 2025,
-      "type": "xlsx",
-      "url": "https://www.energyinst.org/statistical-review"
+      "type": "official statistical review",
+      "url": "https://www.energyinst.org/statistical-review/home"
     },
     {
-      "id": "UNCOMTRADE-2024-HS2709",
-      "title": "UN Comtrade annual imports of crude petroleum by partner country",
-      "publisher": "UNSD",
+      "id": "JPN-METI-2024-CRUDE-IMPORTS-XLS",
+      "title": "Crude oil imports by source",
+      "publisher": "Agency for Natural Resources and Energy, METI",
       "year": 2024,
-      "type": "api",
-      "url": "https://comtradeplus.un.org/"
+      "type": "official statistics xlsx",
+      "url": "https://www.meti.go.jp/statistics/tyo/sekiyuso/result/xls/h2j581011e.xlsx"
     },
     {
-      "id": "MANUAL-2024-MAJOR-IMPORTS",
-      "title": "Curated partner-country crude sourcing table",
-      "publisher": "Project manual compilation",
+      "id": "JPN-JAERO-2024-FOSSIL-IMPORTS",
+      "title": "Japan’s Fossil Fuel Imports by Country of Origin (FY2024 result)",
+      "publisher": "Japan Atomic Energy Relations Organization",
       "year": 2024,
-      "type": "csv",
-      "url": "https://github.com/example/petroscope-data"
+      "type": "industry infographic citing official statistics",
+      "url": "https://www.ene100.jp/www/wp-content/uploads/zumen/e1-2-4.pdf"
     },
     {
-      "id": "GOV-JPN-ENERGY-2024",
-      "title": "Energy White Paper",
-      "publisher": "METI Japan",
+      "id": "ESP-CORES-2024-CRUDE-IMPORTS-DEC",
+      "title": "Importaciones de crudo por países (Diciembre 2024; distribución Enero-Diciembre 2024)",
+      "publisher": "CORES",
       "year": 2024,
-      "type": "pdf",
-      "url": "https://www.enecho.meti.go.jp/"
+      "type": "official monthly statistics bulletin",
+      "url": "https://www.cores.es/sites/default/files/archivos/icores/i-crudosdiciembre2024.pdf"
     },
     {
-      "id": "GOV-KOR-ENERGY-2024",
-      "title": "Korean energy balance and crude imports",
-      "publisher": "MOTIE Korea",
+      "id": "ESP-CORES-2024-MEMORIA",
+      "title": "Memoria 2024",
+      "publisher": "CORES",
       "year": 2024,
-      "type": "pdf",
-      "url": "https://www.motie.go.kr/"
+      "type": "official annual report",
+      "url": "https://www.cores.es/sites/default/files/archivos/publicaciones/memoria_2024.pdf"
     },
     {
-      "id": "GOV-DEU-ENERGY-2024",
-      "title": "German energy statistics and crude sourcing",
-      "publisher": "BMWK Germany",
+      "id": "TWN-EA-2024-ENERGY-HANDBOOK",
+      "title": "Energy Statistics Handbook 2024",
+      "publisher": "Energy Administration, Ministry of Economic Affairs, R.O.C.",
       "year": 2024,
-      "type": "pdf",
-      "url": "https://www.bmwk.de/"
+      "type": "official statistical handbook",
+      "url": "https://www.esist.org.tw/attachments/handbook/2024/ebook/2024EnergyStaHandBook.pdf"
     },
     {
-      "id": "GOV-IND-ENERGY-2024",
-      "title": "Indian crude sourcing notes",
-      "publisher": "PPAC India",
+      "id": "GBR-DESNZ-2024-DIVERSITY-OIL",
+      "title": "Diversity of supply for oil and oil products in OECD countries in 2024",
+      "publisher": "Department for Energy Security and Net Zero",
       "year": 2024,
-      "type": "pdf",
-      "url": "https://ppac.gov.in/"
+      "type": "official statistical article",
+      "url": "https://www.gov.uk/government/publications/energy-trends-september-2025-special-feature-article-diversity-of-supply-for-oil-and-oil-products-in-oecd-countries-in-2024"
     },
     {
-      "id": "GOV-FRA-ENERGY-2024",
-      "title": "French refinery and crude import dataset",
-      "publisher": "DGEC France",
+      "id": "DEU-AGEB-2024-CRUDE-IMPORTS",
+      "title": "Energieverbrauch in Deutschland im Jahr 2024",
+      "publisher": "AG Energiebilanzen e.V.",
       "year": 2024,
-      "type": "pdf",
-      "url": "https://www.ecologie.gouv.fr/"
-    },
-    {
-      "id": "GOV-BRA-ENERGY-2024",
-      "title": "Brazil upstream and crude import balance",
-      "publisher": "ANP Brazil",
-      "year": 2024,
-      "type": "pdf",
-      "url": "https://www.gov.br/anp/"
-    },
-    {
-      "id": "EIA-2024-COUNTRY-EXPORTS",
-      "title": "Country export and import flow summary",
-      "publisher": "U.S. Energy Information Administration",
-      "year": 2024,
-      "type": "api",
-      "url": "https://www.eia.gov/"
+      "type": "industry statistical report",
+      "url": "https://ag-energiebilanzen.de/wp-content/uploads/AGEB_Jahresbericht2024_20250616_dt.pdf"
     }
   ]
 }

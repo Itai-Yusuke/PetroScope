@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc --project tsconfig.app.json && vite build",
     "preview": "vite preview",
+    "import:deepresearch": "tsx scripts/import-deepresearch.ts",
     "validate:data": "tsx scripts/validate-data.ts",
     "prepare:map": "node scripts/prepare-world-map.mjs"
   },

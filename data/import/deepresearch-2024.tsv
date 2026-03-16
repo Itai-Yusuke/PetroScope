@@ -1,0 +1,197 @@
+﻿=== SOURCES ===
+id	title	publisher	year	type	url
+EI-2025-SRWE-OIL-CONS	Statistical Review of World Energy 2025	Energy Institute	2025	official statistical review	https://www.energyinst.org/statistical-review/home
+JPN-METI-2024-CRUDE-IMPORTS-XLS	Crude oil imports by source	Agency for Natural Resources and Energy, METI	2024	official statistics xlsx	https://www.meti.go.jp/statistics/tyo/sekiyuso/result/xls/h2j581011e.xlsx
+JPN-JAERO-2024-FOSSIL-IMPORTS	Japan’s Fossil Fuel Imports by Country of Origin (FY2024 result)	Japan Atomic Energy Relations Organization	2024	industry infographic citing official statistics	https://www.ene100.jp/www/wp-content/uploads/zumen/e1-2-4.pdf
+ESP-CORES-2024-CRUDE-IMPORTS-DEC	Importaciones de crudo por países (Diciembre 2024; distribución Enero-Diciembre 2024)	CORES	2024	official monthly statistics bulletin	https://www.cores.es/sites/default/files/archivos/icores/i-crudosdiciembre2024.pdf
+ESP-CORES-2024-MEMORIA	Memoria 2024	CORES	2024	official annual report	https://www.cores.es/sites/default/files/archivos/publicaciones/memoria_2024.pdf
+TWN-EA-2024-ENERGY-HANDBOOK	Energy Statistics Handbook 2024	Energy Administration, Ministry of Economic Affairs, R.O.C.	2024	official statistical handbook	https://www.esist.org.tw/attachments/handbook/2024/ebook/2024EnergyStaHandBook.pdf
+GBR-DESNZ-2024-DIVERSITY-OIL	Diversity of supply for oil and oil products in OECD countries in 2024	Department for Energy Security and Net Zero	2024	official statistical article	https://www.gov.uk/government/publications/energy-trends-september-2025-special-feature-article-diversity-of-supply-for-oil-and-oil-products-in-oecd-countries-in-2024
+DEU-AGEB-2024-CRUDE-IMPORTS	Energieverbrauch in Deutschland im Jahr 2024	AG Energiebilanzen e.V.	2024	industry statistical report	https://ag-energiebilanzen.de/wp-content/uploads/AGEB_Jahresbericht2024_20250616_dt.pdf
+
+=== CONSUMPTION ===
+year	iso3	name_ja	name_en	consumption_value	consumption_unit	status	missing_reason	source_ref_ids
+2024	CAN	カナダ	Canada	4.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	MEX	メキシコ	Mexico	3.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	USA	米国	United States	35.8	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ARG	アルゼンチン	Argentina	1.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	BRA	ブラジル	Brazil	5.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	CHL	チリ	Chile	0.9	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	COL	コロンビア	Colombia	0.9	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ECU	エクアドル	Ecuador	0.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	PER	ペルー	Peru	0.5	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	TTO	トリニダード・トバゴ	Trinidad and Tobago	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	VEN	ベネズエラ	Venezuela	0.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	AUT	オーストリア	Austria	0.5	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	BEL	ベルギー	Belgium	1.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	BGR	ブルガリア	Bulgaria	0.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	HRV	クロアチア	Croatia	0.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	CYP	キプロス	Cyprus	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	CZE	チェコ	Czech Republic	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	DNK	デンマーク	Denmark	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	EST	エストニア	Estonia	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	FIN	フィンランド	Finland	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	FRA	フランス	France	2.8	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	DEU	ドイツ	Germany	4.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	GRC	ギリシャ	Greece	0.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	HUN	ハンガリー	Hungary	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ISL	アイスランド	Iceland		exajoules	partial	EI表記は ^（0ではないが丸め込み）	EI-2025-SRWE-OIL-CONS
+2024	IRL	アイルランド	Ireland	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ITA	イタリア	Italy	2.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	LVA	ラトビア	Latvia	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	LTU	リトアニア	Lithuania	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	LUX	ルクセンブルク	Luxembourg	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	NLD	オランダ	Netherlands	1.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	MKD	北マケドニア	North Macedonia	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	NOR	ノルウェー	Norway	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	POL	ポーランド	Poland	1.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	PRT	ポルトガル	Portugal	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ROU	ルーマニア	Romania	0.5	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	SVK	スロバキア	Slovakia	0.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	SVN	スロベニア	Slovenia	0.1	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ESP	スペイン	Spain	2.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	SWE	スウェーデン	Sweden	0.5	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	CHE	スイス	Switzerland	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	TUR	トルコ	Türkiye	2.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	UKR	ウクライナ	Ukraine	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	GBR	英国	United Kingdom	2.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	AZE	アゼルバイジャン	Azerbaijan	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	BLR	ベラルーシ	Belarus	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	KAZ	カザフスタン	Kazakhstan	0.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	RUS	ロシア	Russian Federation	7.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	TKM	トルクメニスタン	Turkmenistan	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	UZB	ウズベキスタン	Uzbekistan	0.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	IRN	イラン	Iran	3.8	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	IRQ	イラク	Iraq	1.9	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ISR	イスラエル	Israel	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	KWT	クウェート	Kuwait	1.0	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	OMN	オマーン	Oman	0.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	QAT	カタール	Qatar	0.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	SAU	サウジアラビア	Saudi Arabia	7.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ARE	アラブ首長国連邦	United Arab Emirates	2.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	DZA	アルジェリア	Algeria	0.9	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	EGY	エジプト	Egypt	1.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	MAR	モロッコ	Morocco	0.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	ZAF	南アフリカ	South Africa	1.0	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	AUS	オーストラリア	Australia	2.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	BGD	バングラデシュ	Bangladesh	0.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	CHN	中国	China	32.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	HKG	香港	Hong Kong SAR	0.7	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	IND	インド	India	10.9	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	IDN	インドネシア	Indonesia	3.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	JPN	日本	Japan	6.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	MYS	マレーシア	Malaysia	1.8	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	NZL	ニュージーランド	New Zealand	0.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	PAK	パキスタン	Pakistan	0.8	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	PHL	フィリピン	Philippines	1.0	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	SGP	シンガポール	Singapore	3.3	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	KOR	韓国	South Korea	5.5	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	LKA	スリランカ	Sri Lanka	0.2	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	TWN	台湾	Taiwan	1.6	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	THA	タイ	Thailand	2.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+2024	VNM	ベトナム	Vietnam	1.4	exajoules	complete		EI-2025-SRWE-OIL-CONS
+
+=== ORIGIN_MIX ===
+year	target_iso3	name_ja	name_en	domestic_share_pct	import_share_pct	estimated_total_supply_volume	estimated_total_supply_unit	status	missing_reason	notes	source_ref_ids
+2024	CAN	カナダ	Canada					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	MEX	メキシコ	Mexico					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	USA	米国	United States					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ARG	アルゼンチン	Argentina					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	BRA	ブラジル	Brazil					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	CHL	チリ	Chile					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	COL	コロンビア	Colombia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ECU	エクアドル	Ecuador					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	PER	ペルー	Peru					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	TTO	トリニダード・トバゴ	Trinidad and Tobago					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	VEN	ベネズエラ	Venezuela					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	AUT	オーストリア	Austria					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	BEL	ベルギー	Belgium					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	BGR	ブルガリア	Bulgaria					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	HRV	クロアチア	Croatia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	CYP	キプロス	Cyprus					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	CZE	チェコ	Czech Republic					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	DNK	デンマーク	Denmark					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	EST	エストニア	Estonia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	FIN	フィンランド	Finland					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	FRA	フランス	France					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	DEU	ドイツ	Germany					partial		2024年のドイツ向け原油輸入先構成。USA/Norway/Kazakhstan/UK/Nigeria/Russia と übrige Länder 35.2% を掲載するが、国内シェアは未確認。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	GRC	ギリシャ	Greece					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	HUN	ハンガリー	Hungary					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ISL	アイスランド	Iceland					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	IRL	アイルランド	Ireland					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ITA	イタリア	Italy					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	LVA	ラトビア	Latvia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	LTU	リトアニア	Lithuania					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	LUX	ルクセンブルク	Luxembourg					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	NLD	オランダ	Netherlands					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	MKD	北マケドニア	North Macedonia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	NOR	ノルウェー	Norway					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	POL	ポーランド	Poland					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	PRT	ポルトガル	Portugal					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ROU	ルーマニア	Romania					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	SVK	スロバキア	Slovakia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	SVN	スロベニア	Slovenia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ESP	スペイン	Spain					partial		2024年のスペイン向け原油輸入先構成。年累計の上位3か国のみ抽出。国内シェアは未確認。	ESP-CORES-2024-CRUDE-IMPORTS-DEC|ESP-CORES-2024-MEMORIA
+2024	SWE	スウェーデン	Sweden					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	CHE	スイス	Switzerland					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	TUR	トルコ	Türkiye					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	UKR	ウクライナ	Ukraine					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	GBR	英国	United Kingdom					partial		DESNZ本文では crude self-sufficiency score 0.59、米国とノルウェーで輸入の約3分の2、米国由来16Mtを確認。完全な国別シェア表は本文アクセス範囲で未取得。	GBR-DESNZ-2024-DIVERSITY-OIL
+2024	AZE	アゼルバイジャン	Azerbaijan					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	BLR	ベラルーシ	Belarus					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	KAZ	カザフスタン	Kazakhstan					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	RUS	ロシア	Russian Federation					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	TKM	トルクメニスタン	Turkmenistan					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	UZB	ウズベキスタン	Uzbekistan					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	IRN	イラン	Iran					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	IRQ	イラク	Iraq					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ISR	イスラエル	Israel					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	KWT	クウェート	Kuwait					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	OMN	オマーン	Oman					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	QAT	カタール	Qatar					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	SAU	サウジアラビア	Saudi Arabia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ARE	アラブ首長国連邦	United Arab Emirates					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	DZA	アルジェリア	Algeria					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	EGY	エジプト	Egypt					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	MAR	モロッコ	Morocco					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	ZAF	南アフリカ	South Africa					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	AUS	オーストラリア	Australia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	BGD	バングラデシュ	Bangladesh					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	CHN	中国	China					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	HKG	香港	Hong Kong SAR					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	IND	インド	India					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	IDN	インドネシア	Indonesia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	JPN	日本	Japan					partial		FY2024の原油輸入先構成。国内シェアは出典で直接確認できず。partner表の国別行合計は98.3%で、Others 0.9% と Others in Middle East 0.7% は未展開。	JPN-METI-2024-CRUDE-IMPORTS-XLS|JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	MYS	マレーシア	Malaysia					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	NZL	ニュージーランド	New Zealand					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	PAK	パキスタン	Pakistan					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	PHL	フィリピン	Philippines					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	SGP	シンガポール	Singapore					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	KOR	韓国	South Korea					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	LKA	スリランカ	Sri Lanka					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	TWN	台湾	Taiwan					partial		2024年の原油輸入先表あり。検索スニペットから一部国のみ抽出。国内シェアは未確認。	TWN-EA-2024-ENERGY-HANDBOOK
+2024	THA	タイ	Thailand					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+2024	VNM	ベトナム	Vietnam					missing	2024年の一次・公的ソースで原油調達構成を確認できず		
+
+=== IMPORT_PARTNERS ===
+year	target_iso3	source_iso3	source_name_ja	source_name_en	share_pct	volume	volume_unit	note	source_ref_ids
+2024	JPN	ARE	アラブ首長国連邦	United Arab Emirates	43.6			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	SAU	サウジアラビア	Saudi Arabia	40.1			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	KWT	クウェート	Kuwait	6.4			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	QAT	カタール	Qatar	4.1			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	USA	米国	United States	1.9			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	ECU	エクアドル	Ecuador	1.2			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	JPN	OMN	オマーン	Oman	1.0			FY2024の原油輸入シェア。残差カテゴリは partner 表から除外。	JPN-JAERO-2024-FOSSIL-IMPORTS
+2024	ESP	USA	米国	United States	15.9			2024年1-12月累計の原油輸入シェア。	ESP-CORES-2024-CRUDE-IMPORTS-DEC
+2024	ESP	BRA	ブラジル	Brazil	14.1			2024年1-12月累計の原油輸入シェア。	ESP-CORES-2024-CRUDE-IMPORTS-DEC
+2024	ESP	MEX	メキシコ	Mexico	13.1			2024年1-12月累計の原油輸入シェア。	ESP-CORES-2024-CRUDE-IMPORTS-DEC
+2024	TWN	KWT	クウェート	Kuwait	13.1			2024 handbook の原油輸入先シェア。検索スニペットから抽出。	TWN-EA-2024-ENERGY-HANDBOOK
+2024	TWN	SAU	サウジアラビア	Saudi Arabia	10.4			2024 handbook の原油輸入先シェア。検索スニペットから抽出。	TWN-EA-2024-ENERGY-HANDBOOK
+2024	TWN	IRQ	イラク	Iraq	1.7			2024 handbook の原油輸入先シェア。検索スニペットから抽出。	TWN-EA-2024-ENERGY-HANDBOOK
+2024	DEU	NOR	ノルウェー	Norway	19.5	15.3	million_tonnes	2024年の原油輸入先シェアと数量。source には übrige Länder 35.2% もあるが国別展開不可。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	DEU	USA	米国	United States	18.2	14.3	million_tonnes	2024年の原油輸入先シェアと数量。source には übrige Länder 35.2% もあるが国別展開不可。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	DEU	KAZ	カザフスタン	Kazakhstan	13.5	10.6	million_tonnes	2024年の原油輸入先シェアと数量。source には übrige Länder 35.2% もあるが国別展開不可。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	DEU	GBR	英国	United Kingdom	10.5	8.2	million_tonnes	2024年の原油輸入先シェアと数量。source には übrige Länder 35.2% もあるが国別展開不可。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	DEU	NGA	ナイジェリア	Nigeria	3.1	2.5	million_tonnes	2024年の原油輸入先シェアと数量。source には übrige Länder 35.2% もあるが国別展開不可。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	DEU	RUS	ロシア	Russian Federation	0.0	0.0	million_tonnes	2024年の原油輸入先シェアと数量。source では 0.0% / 0.0Mt に丸め。	DEU-AGEB-2024-CRUDE-IMPORTS
+2024	GBR	USA	米国	United States		16	million_tonnes	2024年の英国 crude imports における米国由来量。share は本文アクセス範囲で未取得。	GBR-DESNZ-2024-DIVERSITY-OIL

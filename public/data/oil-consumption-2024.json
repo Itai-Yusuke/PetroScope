@@ -1,22 +1,560 @@
 {
   "year": 2024,
-  "unit": "million_tonnes_oil_equivalent",
+  "unit": "exajoules",
   "metricName": "oil_consumption",
   "countries": {
-    "USA": { "value": 818.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "CHN": { "value": 764.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "IND": { "value": 265.7, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "JPN": { "value": 150.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "KOR": { "value": 126.8, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "BRA": { "value": 124.7, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "CAN": { "value": 118.1, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "SAU": { "value": 167.2, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "DEU": { "value": 101.8, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "MEX": { "value": 88.5, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "partial", "missingReason": "暦年と会計年度の差異あり" },
-    "IDN": { "value": 83.9, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "FRA": { "value": 70.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "ARE": { "value": 52.6, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" },
-    "AUS": { "value": 47.1, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "partial", "missingReason": "一部系列を補助統計で補完" },
-    "NOR": { "value": 18.4, "sourceRefIds": ["EI-2025-COUNTRY-DATA"], "status": "complete" }
+    "CAN": {
+      "value": 4.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "MEX": {
+      "value": 3.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "USA": {
+      "value": 35.8,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ARG": {
+      "value": 1.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "BRA": {
+      "value": 5.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "CHL": {
+      "value": 0.9,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "COL": {
+      "value": 0.9,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ECU": {
+      "value": 0.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "PER": {
+      "value": 0.5,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "TTO": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "VEN": {
+      "value": 0.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "AUT": {
+      "value": 0.5,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "BEL": {
+      "value": 1.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "BGR": {
+      "value": 0.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "HRV": {
+      "value": 0.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "CYP": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "CZE": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "DNK": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "EST": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "FIN": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "FRA": {
+      "value": 2.8,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "DEU": {
+      "value": 4.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "GRC": {
+      "value": 0.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "HUN": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ISL": {
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "partial",
+      "missingReason": "EI表記は ^（0ではないが丸め込み）"
+    },
+    "IRL": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ITA": {
+      "value": 2.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "LVA": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "LTU": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "LUX": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "NLD": {
+      "value": 1.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "MKD": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "NOR": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "POL": {
+      "value": 1.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "PRT": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ROU": {
+      "value": 0.5,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "SVK": {
+      "value": 0.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "SVN": {
+      "value": 0.1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ESP": {
+      "value": 2.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "SWE": {
+      "value": 0.5,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "CHE": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "TUR": {
+      "value": 2.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "UKR": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "GBR": {
+      "value": 2.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "AZE": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "BLR": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "KAZ": {
+      "value": 0.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "RUS": {
+      "value": 7.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "TKM": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "UZB": {
+      "value": 0.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "IRN": {
+      "value": 3.8,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "IRQ": {
+      "value": 1.9,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ISR": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "KWT": {
+      "value": 1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "OMN": {
+      "value": 0.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "QAT": {
+      "value": 0.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "SAU": {
+      "value": 7.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ARE": {
+      "value": 2.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "DZA": {
+      "value": 0.9,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "EGY": {
+      "value": 1.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "MAR": {
+      "value": 0.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "ZAF": {
+      "value": 1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "AUS": {
+      "value": 2.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "BGD": {
+      "value": 0.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "CHN": {
+      "value": 32.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "HKG": {
+      "value": 0.7,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "IND": {
+      "value": 10.9,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "IDN": {
+      "value": 3.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "JPN": {
+      "value": 6.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "MYS": {
+      "value": 1.8,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "NZL": {
+      "value": 0.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "PAK": {
+      "value": 0.8,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "PHL": {
+      "value": 1,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "SGP": {
+      "value": 3.3,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "KOR": {
+      "value": 5.5,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "LKA": {
+      "value": 0.2,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "TWN": {
+      "value": 1.6,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "THA": {
+      "value": 2.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    },
+    "VNM": {
+      "value": 1.4,
+      "sourceRefIds": [
+        "EI-2025-SRWE-OIL-CONS"
+      ],
+      "status": "complete"
+    }
   }
 }
